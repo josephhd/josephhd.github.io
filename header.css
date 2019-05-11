@@ -1,0 +1,52 @@
+nav a.nav-link {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    padding: 0px 30px;
+    height: 100%;
+    line-height: 50px;
+    background-color: #dddcdc;
+}
+
+nav div {
+    width: 860px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav a.git-link {
+    display: block;
+    float: right;
+    margin: 9px 0px 
+}
+
+nav a.git-link img {
+    opacity: 0.23;
+}
+
+nav a.git-link img:hover {
+    opacity: 0.4;
+    transition: opacity 0.2s;
+}
+
+nav a.nav-link:hover {
+    /* color: rgb(70, 70, 70); */
+    background: #cccccc;
+    transition: background 0.2s;
+    text-decoration: none;
+}
+
+nav a.nav-link {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    z-index: 1000;
+}

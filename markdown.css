@@ -47,6 +47,9 @@ div.article-link a {
     vertical-align: middle;
     text-decoration: none;
     color: black;
+
+    background-color: #eeeeee00;
+    transition: background-color 0.15s;
 }
 
 div.article-link {
@@ -55,7 +58,7 @@ div.article-link {
 
 div.article-link a:hover {
     background-color: #eeeeee;
-    transition: background 0.2s;
+    transition: background-color 0.15s;
     text-decoration: none;
 }
 

@@ -49,7 +49,7 @@ div.article-link a {
     color: black;
 
     background-color: #eeeeee00;
-    transition: background-color 0.15s;
+    transition: background-color 0.15s ease-out;
 }
 
 div.article-link {
@@ -58,7 +58,7 @@ div.article-link {
 
 div.article-link a:hover {
     background-color: #eeeeee;
-    transition: background-color 0.15s;
+    transition: background-color 0.15s ease-in;
     text-decoration: none;
 }
 
